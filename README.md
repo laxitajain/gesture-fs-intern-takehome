@@ -171,4 +171,13 @@ langchain-intern-assignment/
 
 ---
 
-Good luck! 🚀
+---
+
+## Implementation
+
+The required TODOs live in `src/pipeline.py`. Design decisions, extras (`--query`, grounding, mixed-corpus filtering), and what was intentionally left out are in [SUBMISSION.md](SUBMISSION.md).
+
+```bash
+python -m src.pipeline
+python -m src.pipeline --query "How much does the Growth package cost?"
+```
